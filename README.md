@@ -5,7 +5,7 @@
 # SkillForge
 
 [![npm version](https://img.shields.io/npm/v/skillforge-butler.svg)](https://www.npmjs.com/package/skillforge-butler)
-[![CI](https://github.com/yvzhou1111/skillforge/actions/workflows/ci.yml/badge.svg)](https://github.com/yvzhou1111/skillforge/actions/workflows/ci.yml)
+[![npm downloads](https://img.shields.io/npm/dm/skillforge-butler.svg)](https://www.npmjs.com/package/skillforge-butler)
 [![license](https://img.shields.io/npm/l/skillforge-butler.svg)](./LICENSE)
 [![node](https://img.shields.io/node/v/skillforge-butler.svg)](https://nodejs.org)
 
