@@ -1,0 +1,272 @@
+{
+  "updatedAt": "2026-05-30",
+  "note": "Curated, hand-vetted skill index aggregating reputable sources from the open Agent Skills ecosystem. Quality signals are approximate and used only for ranking.",
+  "skills": [
+    {
+      "name": "react-best-practices",
+      "description": "React and Next.js performance optimization and component best practices from Vercel Engineering.",
+      "tags": ["react", "nextjs", "frontend", "performance", "web", "typescript"],
+      "location": { "kind": "github", "ref": "vercel-labs/agent-skills", "subPath": "skills/react-best-practices" },
+      "signals": { "installs": 185000, "stars": 4000, "reputation": 0.95 }
+    },
+    {
+      "name": "nextjs-app-router",
+      "description": "Guidance for building with the Next.js App Router: layouts, server components, data fetching, and routing conventions.",
+      "tags": ["nextjs", "react", "frontend", "ssr", "web", "routing"],
+      "location": { "kind": "github", "ref": "vercel-labs/agent-skills", "subPath": "skills/nextjs-app-router" },
+      "signals": { "installs": 120000, "stars": 4000, "reputation": 0.95 }
+    },
+    {
+      "name": "frontend-design",
+      "description": "Frontend visual design, layout, spacing, and accessible UI guidelines.",
+      "tags": ["design", "ui", "ux", "frontend", "accessibility", "css"],
+      "location": { "kind": "github", "ref": "anthropics/skills", "subPath": "skills/frontend-design" },
+      "signals": { "installs": 100000, "stars": 9000, "reputation": 1.0 }
+    },
+    {
+      "name": "pdf",
+      "description": "Read, fill, and generate PDF documents, including forms and structured extraction.",
+      "tags": ["pdf", "documents", "extraction", "forms", "office"],
+      "location": { "kind": "github", "ref": "anthropics/skills", "subPath": "skills/pdf" },
+      "signals": { "installs": 100000, "stars": 9000, "reputation": 1.0 }
+    },
+    {
+      "name": "pptx",
+      "description": "Create and edit PowerPoint presentations programmatically.",
+      "tags": ["pptx", "powerpoint", "documents", "office", "slides"],
+      "location": { "kind": "github", "ref": "anthropics/skills", "subPath": "skills/pptx" },
+      "signals": { "installs": 90000, "stars": 9000, "reputation": 1.0 }
+    },
+    {
+      "name": "docx",
+      "description": "Create and edit Word documents with styles, tables, and templates.",
+      "tags": ["docx", "word", "documents", "office"],
+      "location": { "kind": "github", "ref": "anthropics/skills", "subPath": "skills/docx" },
+      "signals": { "installs": 88000, "stars": 9000, "reputation": 1.0 }
+    },
+    {
+      "name": "xlsx",
+      "description": "Read, write, and analyze Excel spreadsheets including formulas and charts.",
+      "tags": ["xlsx", "excel", "spreadsheet", "data", "office"],
+      "location": { "kind": "github", "ref": "anthropics/skills", "subPath": "skills/xlsx" },
+      "signals": { "installs": 80000, "stars": 9000, "reputation": 1.0 }
+    },
+    {
+      "name": "tdd-workflow",
+      "description": "Test-driven development workflow: write failing tests first, implement, refactor, with framework-agnostic guidance.",
+      "tags": ["testing", "tdd", "quality", "jest", "vitest", "pytest"],
+      "location": { "kind": "github", "ref": "levnikolaevich/claude-code-skills", "subPath": "skills/tdd-workflow" },
+      "signals": { "installs": 22000, "stars": 800, "reputation": 0.8 }
+    },
+    {
+      "name": "playwright-e2e",
+      "description": "End-to-end browser testing with Playwright: selectors, fixtures, and CI integration.",
+      "tags": ["testing", "e2e", "playwright", "browser", "ci"],
+      "location": { "kind": "github", "ref": "VoltAgent/awesome-agent-skills", "subPath": "skills/playwright-e2e" },
+      "signals": { "installs": 30000, "stars": 2500, "reputation": 0.85 }
+    },
+    {
+      "name": "debugging-methodology",
+      "description": "Structured root-cause-first debugging: a four-phase process that prevents random guesswork.",
+      "tags": ["debugging", "quality", "methodology", "troubleshooting"],
+      "location": { "kind": "github", "ref": "VoltAgent/awesome-agent-skills", "subPath": "skills/debugging-methodology" },
+      "signals": { "installs": 40000, "stars": 2500, "reputation": 0.85 }
+    },
+    {
+      "name": "code-review",
+      "description": "Systematic pull request review covering correctness, security, performance, and style.",
+      "tags": ["review", "pr", "quality", "security", "git"],
+      "location": { "kind": "github", "ref": "VoltAgent/awesome-claude-code-subagents", "subPath": "categories/04-quality-security/code-reviewer" },
+      "signals": { "installs": 35000, "stars": 3000, "reputation": 0.85 }
+    },
+    {
+      "name": "docker-containerization",
+      "description": "Author production-grade Dockerfiles and compose setups with multi-stage builds and small images.",
+      "tags": ["docker", "devops", "containers", "deployment", "ci-cd"],
+      "location": { "kind": "github", "ref": "VoltAgent/awesome-agent-skills", "subPath": "skills/docker" },
+      "signals": { "installs": 28000, "stars": 2500, "reputation": 0.85 }
+    },
+    {
+      "name": "terraform-iac",
+      "description": "Terraform/OpenTofu workflows with safety-first IaC practices and AWS infrastructure management.",
+      "tags": ["terraform", "iac", "devops", "aws", "infrastructure", "opentofu"],
+      "location": { "kind": "github", "ref": "lgbarn/devops-skills", "subPath": "skills/terraform" },
+      "signals": { "installs": 12000, "stars": 400, "reputation": 0.75 }
+    },
+    {
+      "name": "kubernetes-deploy",
+      "description": "Author and review Kubernetes manifests, Helm charts, and rollout strategies.",
+      "tags": ["kubernetes", "k8s", "devops", "deployment", "helm"],
+      "location": { "kind": "github", "ref": "VoltAgent/awesome-agent-skills", "subPath": "skills/kubernetes" },
+      "signals": { "installs": 18000, "stars": 2500, "reputation": 0.85 }
+    },
+    {
+      "name": "i18n-localization",
+      "description": "Internationalization and localization: message catalogs, pluralization, RTL, and locale routing.",
+      "tags": ["i18n", "l10n", "localization", "internationalization", "frontend"],
+      "location": { "kind": "github", "ref": "VoltAgent/awesome-agent-skills", "subPath": "skills/i18n" },
+      "signals": { "installs": 9000, "stars": 2500, "reputation": 0.8 }
+    },
+    {
+      "name": "payment-integration-security",
+      "description": "Secure payment integration patterns: PCI-aware handling, idempotency, webhooks, and Stripe/PSP best practices.",
+      "tags": ["payments", "stripe", "security", "ecommerce", "webhooks"],
+      "location": { "kind": "github", "ref": "VoltAgent/awesome-agent-skills", "subPath": "skills/payments" },
+      "signals": { "installs": 7000, "stars": 2500, "reputation": 0.8 }
+    },
+    {
+      "name": "seo-optimization",
+      "description": "Technical SEO: metadata, structured data, sitemaps, Core Web Vitals, and crawlability.",
+      "tags": ["seo", "web", "marketing", "performance", "metadata"],
+      "location": { "kind": "github", "ref": "VoltAgent/awesome-agent-skills", "subPath": "skills/seo" },
+      "signals": { "installs": 11000, "stars": 2500, "reputation": 0.8 }
+    },
+    {
+      "name": "security-audit",
+      "description": "Security research and vulnerability detection workflows for code audits.",
+      "tags": ["security", "audit", "vulnerability", "quality"],
+      "location": { "kind": "github", "ref": "trailofbits/skills", "subPath": "skills/security-audit" },
+      "signals": { "installs": 15000, "stars": 1200, "reputation": 0.9 }
+    },
+    {
+      "name": "api-design-rest",
+      "description": "Design consistent REST APIs: resource modeling, status codes, pagination, versioning, and error shapes.",
+      "tags": ["api", "rest", "backend", "design", "http"],
+      "location": { "kind": "github", "ref": "VoltAgent/awesome-agent-skills", "subPath": "skills/api-design" },
+      "signals": { "installs": 14000, "stars": 2500, "reputation": 0.82 }
+    },
+    {
+      "name": "graphql-schema",
+      "description": "Design and evolve GraphQL schemas: types, resolvers, N+1 avoidance, and federation basics.",
+      "tags": ["graphql", "api", "backend", "schema"],
+      "location": { "kind": "github", "ref": "VoltAgent/awesome-agent-skills", "subPath": "skills/graphql" },
+      "signals": { "installs": 10000, "stars": 2500, "reputation": 0.82 }
+    },
+    {
+      "name": "python-packaging",
+      "description": "Modern Python packaging with pyproject.toml, uv, and reproducible environments.",
+      "tags": ["python", "packaging", "uv", "pip", "backend"],
+      "location": { "kind": "github", "ref": "VoltAgent/awesome-agent-skills", "subPath": "skills/python-packaging" },
+      "signals": { "installs": 13000, "stars": 2500, "reputation": 0.82 }
+    },
+    {
+      "name": "go-idioms",
+      "description": "Idiomatic Go: error handling, concurrency patterns, and project layout.",
+      "tags": ["go", "golang", "backend", "concurrency"],
+      "location": { "kind": "github", "ref": "VoltAgent/awesome-agent-skills", "subPath": "skills/go-idioms" },
+      "signals": { "installs": 9500, "stars": 2500, "reputation": 0.82 }
+    },
+    {
+      "name": "rust-ownership",
+      "description": "Rust ownership, borrowing, and error-handling guidance for safe, idiomatic code.",
+      "tags": ["rust", "backend", "systems", "memory-safety"],
+      "location": { "kind": "github", "ref": "VoltAgent/awesome-agent-skills", "subPath": "skills/rust" },
+      "signals": { "installs": 8000, "stars": 2500, "reputation": 0.82 }
+    },
+    {
+      "name": "tailwind-ui",
+      "description": "Build accessible, responsive UI with Tailwind CSS utility patterns and design tokens.",
+      "tags": ["tailwind", "css", "frontend", "ui", "design"],
+      "location": { "kind": "github", "ref": "vercel-labs/agent-skills", "subPath": "skills/tailwind-ui" },
+      "signals": { "installs": 60000, "stars": 4000, "reputation": 0.9 }
+    },
+    {
+      "name": "changelog-generator",
+      "description": "Generate and maintain changelogs from commits following Keep a Changelog and SemVer.",
+      "tags": ["changelog", "docs", "git", "release", "automation"],
+      "location": { "kind": "github", "ref": "vercel-labs/agent-skills", "subPath": "skills/changelog" },
+      "signals": { "installs": 24000, "stars": 4000, "reputation": 0.9 }
+    },
+    {
+      "name": "data-analysis",
+      "description": "Exploratory data analysis workflows with pandas/notebooks: cleaning, aggregation, and visualization.",
+      "tags": ["data", "data-science", "pandas", "analysis", "python", "ai"],
+      "location": { "kind": "github", "ref": "K-Dense-AI/claude-scientific-skills", "subPath": "skills/data-analysis" },
+      "signals": { "installs": 9000, "stars": 600, "reputation": 0.8 }
+    },
+    {
+      "name": "running-marketing-campaigns",
+      "description": "Plans, creates, and optimizes digital marketing campaigns: content strategy, social media, email sequences, SEO and AI visibility (GEO), UTM tracking, brand voice, and analytics. Use when asked to create a marketing campaign, plan content strategy, build email sequences, set up UTM tracking, or launch a product.",
+      "tags": ["marketing", "growth", "campaign", "content", "social-media", "email", "seo", "analytics", "utm", "gtm", "brand"],
+      "location": { "kind": "github", "ref": "SpillwaveSolutions/running-marketing-campaigns-agent-skill" },
+      "signals": { "installs": 6000, "stars": 300, "reputation": 0.78 }
+    },
+    {
+      "name": "remotion-video",
+      "description": "Create programmatic videos with Remotion (React-based): compositions, animations, motion graphics, transitions, captions, audio, data-driven content, and rendering. Use when making video content, social media clips, or animated explainers in code.",
+      "tags": ["video", "remotion", "animation", "motion-graphics", "react", "content-creation", "media", "social-media"],
+      "location": { "kind": "github", "ref": "remotion-dev/skills", "subPath": "skills/remotion" },
+      "signals": { "installs": 14000, "stars": 21000, "reputation": 0.9 }
+    },
+    {
+      "name": "canvas-design",
+      "description": "Create beautiful visual art as .png and .pdf — posters, graphics, and design pieces — using a design-philosophy-first approach. Use when the user asks to create a poster, piece of art, social graphic, or other static visual design.",
+      "tags": ["design", "image", "poster", "graphics", "art", "visual", "content-creation", "media", "canvas"],
+      "location": { "kind": "github", "ref": "anthropics/skills", "subPath": "skills/canvas-design" },
+      "signals": { "installs": 70000, "stars": 9000, "reputation": 1.0 }
+    },
+    {
+      "name": "slack-gif-creator",
+      "description": "Create Slack-optimized animated GIFs from a description. Use when the user asks to make an animated GIF or emoji animation for Slack, e.g. 'make me a GIF of X doing Y'. Handles size constraints and validation.",
+      "tags": ["gif", "animation", "image", "slack", "content-creation", "media"],
+      "location": { "kind": "github", "ref": "anthropics/skills", "subPath": "skills/slack-gif-creator" },
+      "signals": { "installs": 40000, "stars": 9000, "reputation": 1.0 }
+    },
+    {
+      "name": "algorithmic-art",
+      "description": "Generate algorithmic / generative art as interactive HTML and JS using computational aesthetic philosophies. Use when the user asks to create generative art, creative coding sketches, or procedural visual designs.",
+      "tags": ["art", "generative", "creative-coding", "image", "design", "content-creation", "canvas", "media"],
+      "location": { "kind": "github", "ref": "anthropics/skills", "subPath": "skills/algorithmic-art" },
+      "signals": { "installs": 35000, "stars": 9000, "reputation": 1.0 }
+    },
+    {
+      "name": "mcp-builder",
+      "description": "Build well-designed MCP (Model Context Protocol) servers that let LLMs interact with external services through robust tools. Use when the user asks to create an MCP server, wrap an API or database as MCP tools, or expose resources/prompts to an agent.",
+      "tags": ["mcp", "tools", "integration", "backend", "api", "agents"],
+      "location": { "kind": "github", "ref": "anthropics/skills", "subPath": "skills/mcp-builder" },
+      "signals": { "installs": 55000, "stars": 9000, "reputation": 1.0 }
+    },
+    {
+      "name": "artifacts-builder",
+      "description": "Build elaborate multi-component HTML artifacts with React, Tailwind, and shadcn/ui (state, routing, components). Use when the user needs a complex interactive web artifact, dashboard, or prototype rather than a single-file snippet.",
+      "tags": ["frontend", "react", "tailwind", "ui", "artifacts", "web", "prototype"],
+      "location": { "kind": "github", "ref": "anthropics/skills", "subPath": "skills/artifacts-builder" },
+      "signals": { "installs": 60000, "stars": 9000, "reputation": 1.0 }
+    },
+    {
+      "name": "skill-creator",
+      "description": "Author new Agent Skills correctly: scaffold the SKILL.md, write effective descriptions and triggers, and structure instructions with progressive disclosure. Use when the user wants to create, edit, or improve a skill.",
+      "tags": ["skill", "authoring", "meta", "documentation", "agents"],
+      "location": { "kind": "github", "ref": "anthropics/skills", "subPath": "skills/skill-creator" },
+      "signals": { "installs": 65000, "stars": 9000, "reputation": 1.0 }
+    },
+    {
+      "name": "accessibility-wcag",
+      "description": "Review and fix code for WCAG 2.2 AA accessibility compliance: semantic HTML, ARIA, color contrast, keyboard navigation, and focus management. Use when the user asks to audit or improve accessibility (a11y) of a UI.",
+      "tags": ["accessibility", "a11y", "wcag", "frontend", "ui", "quality", "design"],
+      "location": { "kind": "github", "ref": "Community-Access/accessibility-agents", "subPath": "skills/accessibility-wcag" },
+      "signals": { "installs": 9000, "stars": 500, "reputation": 0.8 }
+    },
+    {
+      "name": "data-visualization",
+      "description": "Design and build clear data visualizations and charts: choosing chart types, encoding data effectively, and avoiding misleading visuals. Use when the user asks to visualize data, build a chart, or create a dashboard view.",
+      "tags": ["data", "visualization", "charts", "dashboard", "analytics", "frontend", "data-science"],
+      "location": { "kind": "github", "ref": "VoltAgent/awesome-agent-skills", "subPath": "skills/data-visualization" },
+      "signals": { "installs": 12000, "stars": 2500, "reputation": 0.82 }
+    },
+    {
+      "name": "technical-writing",
+      "description": "Write and edit clear technical documentation: READMEs, API docs, tutorials, and guides with good structure and examples. Use when the user asks to write or improve documentation, a README, or developer-facing content.",
+      "tags": ["docs", "documentation", "technical-writing", "readme", "content", "tutorials"],
+      "location": { "kind": "github", "ref": "VoltAgent/awesome-agent-skills", "subPath": "skills/technical-writing" },
+      "signals": { "installs": 16000, "stars": 2500, "reputation": 0.82 }
+    },
+    {
+      "name": "sql-optimization",
+      "description": "Analyze and optimize SQL queries and schemas: indexing, query plans, N+1 avoidance, and safe migrations. Use when the user asks to speed up a slow query, design a schema, or review database performance.",
+      "tags": ["sql", "database", "performance", "backend", "postgres", "mysql", "optimization"],
+      "location": { "kind": "github", "ref": "VoltAgent/awesome-agent-skills", "subPath": "skills/sql-optimization" },
+      "signals": { "installs": 13000, "stars": 2500, "reputation": 0.82 }
+    }
+  ]
+}

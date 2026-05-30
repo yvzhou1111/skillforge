@@ -1,0 +1,74 @@
+{
+  "name": "skillforge",
+  "version": "0.1.0",
+  "description": "Intelligent Agent-Skill dependency butler: discover, security-audit, quality-grade, and install Agent Skills into any AI coding agent (Claude Code, Cursor, Codex, Gemini, Hermes, OpenClaw).",
+  "type": "module",
+  "bin": {
+    "skillforge": "./dist/cli.js",
+    "sf": "./dist/cli.js",
+    "skillforge-mcp": "./dist/mcp.js"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "catalog",
+    "skill",
+    ".claude-plugin",
+    "README.md",
+    "README.zh-CN.md",
+    "README.ja.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "tsx src/cli.ts",
+    "start": "node dist/cli.js",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "bash test/e2e.sh",
+    "test:all": "vitest run && bash test/e2e.sh",
+    "lint": "tsc --noEmit -p tsconfig.json",
+    "clean": "rm -rf dist",
+    "prepack": "npm run build",
+    "prepublishOnly": "npm run build && npm run test"
+  },
+  "keywords": [
+    "agent-skills",
+    "claude-code",
+    "cursor",
+    "codex",
+    "gemini",
+    "hermes",
+    "openclaw",
+    "mcp",
+    "skill-manager",
+    "package-manager",
+    "ai-agents",
+    "skill.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yvzhou1111/skillforge.git"
+  },
+  "homepage": "https://github.com/yvzhou1111/skillforge#readme",
+  "bugs": {
+    "url": "https://github.com/yvzhou1111/skillforge/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "yaml": "^2.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0",
+    "vitest": "^2.1.0"
+  }
+}

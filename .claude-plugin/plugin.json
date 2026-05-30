@@ -1,0 +1,27 @@
+{
+  "name": "skillforge",
+  "version": "0.1.0",
+  "description": "Intelligent Agent-Skill dependency butler: discover, security-audit, and install Agent Skills into your project. Scans tech stack, plans a vetted combination, audits each skill, and installs per-agent.",
+  "author": {
+    "name": "SkillForge"
+  },
+  "license": "MIT",
+  "keywords": [
+    "skills",
+    "skill-manager",
+    "security-audit",
+    "mcp",
+    "package-manager",
+    "agent-skills"
+  ],
+  "skills": [
+    "./skill"
+  ],
+  "mcpServers": {
+    "skillforge": {
+      "command": "npx",
+      "args": ["-y", "skillforge-mcp"],
+      "env": {}
+    }
+  }
+}

@@ -1,0 +1,14 @@
+# Source and dev-only files (the published package ships compiled dist/).
+src/
+test/
+examples/
+*.test.ts
+tsconfig.json
+vitest.config.ts
+.github/
+.gitignore
+REQUIREMENTS.md
+CHANGELOG.md
+*.skillforge-backup
+.skillforge-cache/
+node_modules/
