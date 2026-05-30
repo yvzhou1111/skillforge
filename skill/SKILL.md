@@ -44,7 +44,7 @@ scan (tech stack) + intent (NL goal) -> plan (ranked combo) -> audit (security) 
 
 ## CLI usage (when MCP is unavailable)
 
-Run via `npx skillforge <command>` or `sf <command>` if installed globally.
+Run via `npx skillforge-butler <command>` or `sf <command>` if installed globally.
 
 ```bash
 # 1. Understand the project

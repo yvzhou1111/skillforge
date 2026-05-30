@@ -20,7 +20,7 @@
   "mcpServers": {
     "skillforge": {
       "command": "npx",
-      "args": ["-y", "skillforge-mcp"],
+      "args": ["-y", "-p", "skillforge-butler", "skillforge-mcp"],
       "env": {}
     }
   }

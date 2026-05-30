@@ -53,10 +53,13 @@ export interface McpServerEntry {
   env?: Record<string, string>;
 }
 
+/** npm package name (the bins live inside this package). */
+export const PACKAGE_NAME = "skillforge-butler";
+
 export function skillForgeMcpEntry(): McpServerEntry {
   return {
     command: "npx",
-    args: ["-y", "skillforge-mcp"],
+    args: ["-y", "-p", PACKAGE_NAME, "skillforge-mcp"],
     env: {},
   };
 }

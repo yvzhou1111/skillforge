@@ -33,14 +33,14 @@ SkillForge 不是「又一个 skill 目录」，而是一个**编排器（orches
 发布到 npm 后，可零安装直接用：
 
 ```bash
-npx skillforge <命令>          # CLI
-npx skillforge-mcp            # MCP 服务（供 agent 调用）
+npx skillforge-butler <命令>          # CLI（包名为 skillforge-butler）
+npx -p skillforge-butler skillforge-mcp   # MCP 服务（供 agent 调用）
 ```
 
-或全局安装：
+或全局安装（提供 `skillforge`、`sf`、`skillforge-mcp` 命令）：
 
 ```bash
-npm install -g skillforge
+npm install -g skillforge-butler
 skillforge --help             # 或别名 `sf`
 ```
 

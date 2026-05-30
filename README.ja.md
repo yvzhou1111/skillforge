@@ -37,14 +37,14 @@ SkillForge は「単なる skill ディレクトリ」ではなく、目標を�
 npm 公開後はインストール不要で利用できます。
 
 ```bash
-npx skillforge <コマンド>       # CLI
-npx skillforge-mcp            # MCP サーバー（エージェント用）
+npx skillforge-butler <コマンド>       # CLI（パッケージ名は skillforge-butler）
+npx -p skillforge-butler skillforge-mcp   # MCP サーバー（エージェント用）
 ```
 
-グローバルインストール：
+グローバルインストール（`skillforge`、`sf`、`skillforge-mcp` を提供）：
 
 ```bash
-npm install -g skillforge
+npm install -g skillforge-butler
 skillforge --help             # エイリアス `sf` も可
 ```
 

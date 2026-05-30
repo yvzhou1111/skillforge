@@ -41,14 +41,14 @@ has gaps SkillForge closes:
 Once published to npm, use it directly with no install:
 
 ```bash
-npx skillforge <command>          # CLI
-npx skillforge-mcp                # MCP server (for agents)
+npx skillforge-butler <command>   # CLI (package name is skillforge-butler)
+npx -p skillforge-butler skillforge-mcp   # MCP server (for agents)
 ```
 
-Or install globally:
+Or install globally (exposes the `skillforge`, `sf`, and `skillforge-mcp` bins):
 
 ```bash
-npm install -g skillforge
+npm install -g skillforge-butler
 skillforge --help                 # or the `sf` alias
 ```
 
@@ -192,7 +192,7 @@ any MCP-capable agent. Tools: `skillforge_scan`, `skillforge_search`,
 
 ```bash
 # Register manually in any mcpServers-style config:
-{ "mcpServers": { "skillforge": { "command": "npx", "args": ["-y", "skillforge-mcp"] } } }
+{ "mcpServers": { "skillforge": { "command": "npx", "args": ["-y", "-p", "skillforge-butler", "skillforge-mcp"] } } }
 ```
 
 The agent calls these tools directly — no shelling out. When MCP isn't

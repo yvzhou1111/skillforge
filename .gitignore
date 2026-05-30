@@ -6,3 +6,7 @@ dist/
 coverage/
 .skillforge-cache/
 *.skillforge-backup
+
+# Workflow files require the `workflow` OAuth scope to push.
+# Templates live in docs/github-workflows/ — see that folder's README to enable.
+.github/workflows/
