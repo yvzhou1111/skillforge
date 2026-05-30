@@ -36,9 +36,42 @@ has gaps SkillForge closes:
 4. **No lifecycle.** SkillForge writes a `skillforge.lock.json` for auditability
    and update checks.
 
-## Install
+## How it compares
 
-Once published to npm, use it directly with no install:
+SkillForge sits between skill *registries* (catalogs you browse) and skill
+*loaders* (runtime that loads SKILL.md). It is the only tool that combines
+**intent-based planning + security audit + quality grading + multi-agent install**
+in one pipeline.
+
+| Capability | **SkillForge** | vercel `skills` (skills.sh) | `openskills` | `anthropics/skills` | awesome-skills lists |
+|---|:--:|:--:|:--:|:--:|:--:|
+| Search / discover skills | ✅ ranked | ✅ keyword | ➖ loader only | ➖ catalog | ✅ manual |
+| Infer needs from **project tech stack** | ✅ `scan` | ❌ | ❌ | ❌ | ❌ |
+| **Intent → skill combination** plan | ✅ `plan` | ❌ | ❌ | ❌ | ❌ |
+| **Security audit** before install | ✅ 12 rules | ❌ | ❌ | ❌ | ⚠️ some lists score risk |
+| **Quality grading** (A–F) | ✅ `lint` | ❌ | ❌ | ❌ | ❌ |
+| Install into multiple agents | ✅ 7 targets | ✅ via `-a` | ✅ many | ➖ manual | ❌ |
+| Self-installable **plugin** (skill + MCP) | ✅ | ✅ skill | ➖ | ✅ skill | ❌ |
+| **MCP server** (agent-callable) | ✅ 7 tools | ❌ | ❌ | ❌ | ❌ |
+| Lockfile / update checks | ✅ | ✅ | ➖ | ❌ | ❌ |
+| Offline mode | ✅ | ❌ | ➖ | n/a | n/a |
+| Runtime dependencies | 1 (`yaml`) | several | several | n/a | n/a |
+
+Legend: ✅ first-class · ⚠️ partial · ➖ limited / indirect · ❌ none.
+
+> SkillForge deliberately stands *on top of* these projects rather than
+> replacing them: it can pull candidates from skills.sh / GitHub, reuses the
+> `anthropics/skills` SKILL.md standard, and borrows progressive-disclosure
+> ideas from `openskills`. Its unique value is the **planning + audit + quality**
+> middle layer no other tool provides.
+
+## Architecture & flow diagrams
+
+![SkillForge architecture](docs/images/architecture.png)
+
+![SkillForge pipeline](docs/images/pipeline.png)
+
+
 
 ```bash
 npx skillforge-butler <command>   # CLI (package name is skillforge-butler)
