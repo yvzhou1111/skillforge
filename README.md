@@ -80,7 +80,7 @@ Legend: ✅ first-class · ⚠️ partial · ➖ limited / indirect · ❌ none.
 
 
 ```bash
-npx skillforge-butler <command>   # CLI (package name is skillforge-butler)
+npx skillforge-butler <command>   # CLI
 npx -p skillforge-butler skillforge-mcp   # MCP server (for agents)
 ```
 

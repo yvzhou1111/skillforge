@@ -1,10 +1,11 @@
 {
   "name": "skillforge-butler",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Intelligent Agent-Skill dependency butler: discover, security-audit, quality-grade, and install Agent Skills into any AI coding agent (Claude Code, Cursor, Codex, Gemini, Hermes, OpenClaw).",
   "type": "module",
   "bin": {
     "skillforge": "./dist/cli.js",
+    "skillforge-butler": "./dist/cli.js",
     "sf": "./dist/cli.js",
     "skillforge-mcp": "./dist/mcp.js"
   },

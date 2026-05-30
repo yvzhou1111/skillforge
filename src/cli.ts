@@ -13,8 +13,9 @@ import { cmdSearch } from "./cli/commands/search.js";
 import { cmdUpdate } from "./cli/commands/update.js";
 import { startMcpServer } from "./mcp/server.js";
 import { c, log, setColor, setQuiet } from "./util/log.js";
+import { getVersion } from "./util/version.js";
 
-const VERSION = "0.1.0";
+const VERSION = getVersion();
 
 const HELP = `${c.bold("SkillForge")} ${c.dim("v" + VERSION)} — the intelligent Agent-Skill dependency butler.
 

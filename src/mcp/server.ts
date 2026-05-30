@@ -15,9 +15,10 @@
  */
 import { createInterface } from "node:readline";
 import { TOOLS, findTool } from "./tools.js";
+import { getVersion } from "../util/version.js";
 
 const PROTOCOL_VERSION = "2025-06-18";
-const SERVER_INFO = { name: "skillforge", version: "0.1.0" };
+const SERVER_INFO = { name: "skillforge", version: getVersion() };
 
 interface JsonRpcRequest {
   jsonrpc: "2.0";

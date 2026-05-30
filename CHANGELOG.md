@@ -4,6 +4,18 @@ All notable changes to SkillForge are documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [0.1.2] - 2026-05-30
+
+### Fixed
+- CLI `--version` and MCP `serverInfo.version` now read the real version from
+  package.json at runtime instead of a hardcoded string.
+
+## [0.1.1] - 2026-05-30
+
+### Fixed
+- Added a `skillforge-butler` bin alias so `npx skillforge-butler <command>`
+  works directly (npm couldn't auto-resolve a bin from the package name before).
+
 ## [0.1.0] - 2026-05-30
 
 ### Added
