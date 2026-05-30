@@ -1,11 +1,19 @@
+<div align="center">
+
+<img src="docs/images/logo.png" alt="SkillForge logo" width="140" />
+
 # SkillForge
 
 [English](./README.md) · [简体中文](./README.zh-CN.md) · **日本語**
 
-> Agent Skills のためのインテリジェントな依存関係マネージャー。
-> プロジェクトと意図を読み取り、オープンソースの skill エコシステムから候補を発掘し、
-> 各候補を**セキュリティ監査**したうえで、選び抜いた組み合わせを任意のエージェント
-> （Claude Code、Cursor、Codex、Gemini、Hermes、OpenClaw）にインストールします。
+**Agent Skills のためのインテリジェントな依存関係マネージャー** —— プロジェクトと意図を読み取り、
+オープンソースの skill エコシステムから候補を発掘し、各候補を**セキュリティ監査・品質評価**した
+うえで、選び抜いた組み合わせを任意のエージェント
+（Claude Code、Cursor、Codex、Gemini、Hermes、OpenClaw）にインストールします。
+
+<img src="docs/images/architecture.png" alt="SkillForge アーキテクチャ" width="860" />
+
+</div>
 
 SkillForge は「単なる skill ディレクトリ」ではなく、目標を「インストール済み・監査済み」の
 能力に変える**オーケストレーター**です。

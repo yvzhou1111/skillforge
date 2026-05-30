@@ -1,11 +1,19 @@
+<div align="center">
+
+<img src="docs/images/logo.png" alt="SkillForge logo" width="140" />
+
 # SkillForge
 
 **English** · [简体中文](./README.zh-CN.md) · [日本語](./README.ja.md)
 
-> The intelligent dependency butler for Agent Skills.
-> It reads your project and intent, mines the open-source skill ecosystem,
-> **security-audits** each candidate, and installs a vetted combination into the
-> agent of your choice — Claude Code, Cursor, Codex, or Gemini.
+**The intelligent dependency butler for Agent Skills** — it reads your project
+and intent, mines the open-source skill ecosystem, **security-audits** and
+**quality-grades** each candidate, then installs a vetted combination into the
+agent of your choice: Claude Code, Cursor, Codex, Gemini, Hermes, or OpenClaw.
+
+<img src="docs/images/architecture.png" alt="SkillForge architecture" width="860" />
+
+</div>
 
 SkillForge is not "another skill directory". It is an **orchestrator** that
 turns a goal into installed, audited capabilities:
@@ -65,9 +73,7 @@ Legend: ✅ first-class · ⚠️ partial · ➖ limited / indirect · ❌ none.
 > ideas from `openskills`. Its unique value is the **planning + audit + quality**
 > middle layer no other tool provides.
 
-## Architecture & flow diagrams
-
-![SkillForge architecture](docs/images/architecture.png)
+## Pipeline at a glance
 
 ![SkillForge pipeline](docs/images/pipeline.png)
 

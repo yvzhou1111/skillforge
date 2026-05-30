@@ -1,10 +1,18 @@
+<div align="center">
+
+<img src="docs/images/logo.png" alt="SkillForge logo" width="140" />
+
 # SkillForge
 
 [English](./README.md) · **简体中文** · [日本語](./README.ja.md)
 
-> 面向 Agent Skills 的智能依赖管家。
-> 它读懂你的项目与意图，从开源 skill 生态中挖掘候选，**逐个做安全审查**，
-> 再把一套经过甄选的组合安装进你指定的 agent —— Claude Code、Cursor、Codex、Gemini、Hermes、OpenClaw。
+**面向 Agent Skills 的智能依赖管家** —— 读懂你的项目与意图，从开源 skill 生态挖掘候选，
+**逐个做安全审查与质量评分**，再把一套甄选过的组合安装进你指定的 agent：
+Claude Code、Cursor、Codex、Gemini、Hermes、OpenClaw。
+
+<img src="docs/images/architecture.png" alt="SkillForge 架构图" width="860" />
+
+</div>
 
 SkillForge 不是「又一个 skill 目录」，而是一个**编排器（orchestrator）**，
 把一个目标变成「已安装、已审查」的能力：
