@@ -1,6 +1,6 @@
 {
   "name": "skillforge",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Intelligent Agent-Skill dependency butler: discover, security-audit, and install Agent Skills into your project. Scans tech stack, plans a vetted combination, audits each skill, and installs per-agent.",
   "author": {
     "name": "SkillForge"

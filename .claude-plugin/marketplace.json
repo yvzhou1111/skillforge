@@ -1,6 +1,6 @@
 {
   "name": "skillforge-marketplace",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "SkillForge — the intelligent Agent-Skill dependency butler.",
   "owner": {
     "name": "SkillForge"
@@ -10,7 +10,7 @@
       "name": "skillforge",
       "source": "./",
       "description": "Discover, security-audit, and install Agent Skills. Includes the SkillForge MCP server and the skillforge skill (with full CLI usage docs).",
-      "version": "0.1.0",
+      "version": "0.1.2",
       "category": "developer-tools",
       "keywords": ["skills", "security", "mcp", "package-manager"]
     }
